@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Event Schedule Table</title>
     <style>
-        /* 1. Internal CSS applied to the table itself */
         table {
             width: 80%;
             margin: 20px auto;
@@ -12,8 +11,6 @@
             font-family: Arial, sans-serif;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-
-        /* 2. Internal CSS applied to table headers (th) */
         th {
             background-color: #2c3e50;
             color: white;
@@ -21,23 +18,15 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-
-        /* 3. Internal CSS applied to all table cells (td) */
         td {
             border: 1px solid #ddd;
             padding: 12px;
             text-align: center;
         }
-
-        /* 4. Internal CSS applied to at least one specific row */
-        /* This targets the 5th row of the table body */
         tbody tr:nth-child(5) {
-            background-color: #f1c40f; /* Highlighting a specific event */
+            background-color: #f1c40f; 
             font-weight: bold;
         }
-
-        /* 5. Internal CSS applied to at least one column */
-        /* This targets the first column (the Time column) */
         td:nth-child(1) {
             background-color: #ecf0f1;
             color: #2980b9;
